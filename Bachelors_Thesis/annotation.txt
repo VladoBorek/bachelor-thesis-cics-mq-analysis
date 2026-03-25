@@ -1,0 +1,22 @@
+IBM mainframy generujú veľké objemy výkonnostných údajov
+prostredníctvom System Management Facility (SMF), avšak
+získavanie zmysluplných poznatkov z týchto údajov je náročné
+kvôli ich zložitosti a obmedzenej dostupnosti nástrojov na
+analýzu. Táto bakalárska práca sa zameriava na analýzu SMF
+záznamov zo subsystémov Customer Information Control System
+(CICS) a IBM Message Queueing (MQ) a navrhuje opakovane
+použiteľné usmernenia pre ich interpretáciu, aj bez použitia
+komerčných analytických nástrojov.
+
+Práca kombinuje teoretické pozadie s praktickým spracovaním
+údajov, vrátane vývoja parsera pre CICS SMF 110 záznamy a
+štruktúrovaného prístupu k výkonnostnej analýze. Pojmy ako
+životný cyklus transakcie a tok správ slúžia na
+kontextualizáciu správania systému. Vzhľadom na obmedzenia
+dostupného datasetu je MQ-analýza založená primárne na
+teoretických poznatkoch.
+
+Práca prináša súbor prakticky využiteľných prístupov k analýze
+SMF údajov a má za cieľ podporiť ako začiatočníkov, tak aj
+skúsených používateľov mainframov pri porozumení a analýze
+výkonnosti systémov CICS a MQ.

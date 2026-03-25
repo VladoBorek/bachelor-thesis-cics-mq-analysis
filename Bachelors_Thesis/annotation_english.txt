@@ -1,0 +1,22 @@
+IBM mainframes generate large volumes of performance data
+through the System Management Facility (SMF) framework, yet
+extracting meaningful insights from this data remains
+challenging due to its complexity and limited tool
+accessibility. This thesis focuses on analyzing SMF records
+from the Customer Information Control Systems (CICS) and IBM
+Message Queueing (MQ) subsystems and proposes reusable
+guidelines for their interpretation, even without commercial
+analysis tools.
+
+The work combines theoretical background with practical data
+processing, including the development of a parser for CICS SMF
+110 records and a structured approach to performance analysis.
+Concepts such as the transaction lifecycle and message flow are
+used to contextualize system behavior. Due to limitations in
+the available dataset, the MQ-related analysis is based
+primarily on theory.
+
+The thesis contributes a set of actionable approaches for SMF
+data analysis and aims to support both newcomers and those
+experienced with mainframes in understanding and analysing CICS
+and MQ system performance.
